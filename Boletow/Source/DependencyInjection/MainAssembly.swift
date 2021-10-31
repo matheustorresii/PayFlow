@@ -15,11 +15,12 @@ class MainAssembly: Assembly {
     func assemble(container: Container) {
         registerFactory(container)
         registerFlowController(container)
-        assembleViewControllers(container)
+        registerViewControllers(container)
     }
     
-    private func assembleViewControllers(_ container: Container) {
+    private func registerViewControllers(_ container: Container) {
         registerHomeViewController(container)
+        registerOnboardingViewController(container)
     }
     
     // MARK: - FACTORY
@@ -49,6 +50,17 @@ class MainAssembly: Assembly {
         container.register(HomeViewControllerProtocol.self) { (resolver, model: HomeModel) in
             let viewModel = resolver.resolveUnwrapping(HomeViewModelProtocol.self, argument: model)
             return HomeViewController(viewModel: viewModel)
+        }
+    }
+    
+    private func registerOnboardingViewController(_ container: Container) {
+        container.register(OnboardingViewModelProtocol.self) { (_, model: OnboardingModel) in
+            return OnboardingViewModel(model: model)
+        }
+        
+        container.register(OnboardingViewControllerProtocol.self) { (resolver, model: OnboardingModel) in
+            let viewModel = resolver.resolveUnwrapping(OnboardingViewModelProtocol.self, argument: model)
+            return OnboardingViewController(viewModel: viewModel)
         }
     }
 }

@@ -9,4 +9,5 @@ import UIKit
 
 protocol MainFactoryProtocol {
     func makeHomeViewController(with model: HomeModel) -> HomeViewControllerProtocol
+    func makeOnboardingViewController(with model: OnboardingModel) -> OnboardingViewControllerProtocol
 }

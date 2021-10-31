@@ -31,6 +31,8 @@ class MainFlowController: NavigableFlowController<MainRoute>, MainFlowController
         switch route {
         case .home:
             return presentHomeViewController()
+        case .onboarding:
+            return presentOnboardingViewController()
         }
     }
     
@@ -42,5 +44,9 @@ class MainFlowController: NavigableFlowController<MainRoute>, MainFlowController
     
     private func presentHomeViewController() -> UIViewController {
         return factory.makeHomeViewController(with: HomeModel())
+    }
+    
+    private func presentOnboardingViewController() -> UIViewController {
+        return factory.makeOnboardingViewController(with: OnboardingModel())
     }
 }

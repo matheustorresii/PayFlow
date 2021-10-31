@@ -25,4 +25,7 @@ class MainFactory: MainFactoryProtocol {
     func makeHomeViewController(with model: HomeModel) -> HomeViewControllerProtocol {
         return resolver.resolveUnwrapping(HomeViewControllerProtocol.self, argument: model)
     }
+    func makeOnboardingViewController(with model: OnboardingModel) -> OnboardingViewControllerProtocol {
+        return resolver.resolveUnwrapping(OnboardingViewControllerProtocol.self, argument: model)
+    }
 }

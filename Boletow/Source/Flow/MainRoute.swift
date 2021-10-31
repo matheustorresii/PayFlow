@@ -9,6 +9,7 @@ import Foundation
 
 enum MainRoute: RouteProtocol, CaseIterable, DefaultRoutable {
     case home
+    case onboarding
     
-    static var defaultRoute: MainRoute { .home }
+    static var defaultRoute: MainRoute { .onboarding }
 }
