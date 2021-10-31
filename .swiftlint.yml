@@ -1,0 +1,47 @@
+included:
+  - Boletow
+
+excluded:
+  - Pods
+
+disabled_rules:
+  - void_return
+  - type_body_length
+  - file_length
+  - todo
+  - trailing_whitespace
+  - type_name
+  - identifier_name
+  - weak_delegate
+  - inclusive_language
+
+opt_in_rules:
+  - fatal_error_message
+  - force_unwrapping
+
+trailing_comma:
+  severity: error
+
+vertical_whitespace:
+  severity: error
+
+trailing_newline:
+  severity: error
+
+force_unwrapping:
+  severity: error
+
+force_cast:
+  severity: error
+
+force_try:
+  severity: error
+
+cyclomatic_complacity:
+  warning: 15
+  error: 20
+  ignores_case_statements: true
+
+line_length:
+  - 200
+  - 200
