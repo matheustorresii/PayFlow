@@ -7,10 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FC1E623D272E3BCC003D8D58 /* RoutableFlowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1E6239272E3BCC003D8D58 /* RoutableFlowController.swift */; };
+		FC1E623E272E3BCC003D8D58 /* RouteProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1E623A272E3BCC003D8D58 /* RouteProtocol.swift */; };
+		FC1E623F272E3BCC003D8D58 /* NavigableFlowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1E623B272E3BCC003D8D58 /* NavigableFlowController.swift */; };
+		FC1E6240272E3BCC003D8D58 /* Navigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1E623C272E3BCC003D8D58 /* Navigator.swift */; };
+		FC1E6248272E3C28003D8D58 /* MainAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1E6247272E3C28003D8D58 /* MainAssembly.swift */; };
+		FC1E624A272E3C33003D8D58 /* MainDependencyGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1E6249272E3C33003D8D58 /* MainDependencyGraph.swift */; };
+		FC1E624C272E3C8E003D8D58 /* MainFactoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1E624B272E3C8E003D8D58 /* MainFactoryProtocol.swift */; };
+		FC1E624E272E3C93003D8D58 /* MainFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1E624D272E3C93003D8D58 /* MainFactory.swift */; };
+		FC1E6250272E3D27003D8D58 /* Resolver+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1E624F272E3D27003D8D58 /* Resolver+Extensions.swift */; };
+		FC1E6256272E3DC7003D8D58 /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1E6255272E3DC7003D8D58 /* UIViewController+Extensions.swift */; };
+		FC1E6258272E3DE0003D8D58 /* UINavigationController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1E6257272E3DE0003D8D58 /* UINavigationController+Extensions.swift */; };
+		FC1E625A272E3E09003D8D58 /* MainRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1E6259272E3E09003D8D58 /* MainRoute.swift */; };
+		FC1E625C272E3E48003D8D58 /* MainFlowControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1E625B272E3E48003D8D58 /* MainFlowControllerProtocol.swift */; };
+		FC1E625E272E3E4D003D8D58 /* MainFlowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1E625D272E3E4D003D8D58 /* MainFlowController.swift */; };
+		FC1E6262272E4015003D8D58 /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1E6261272E4015003D8D58 /* HomeModel.swift */; };
+		FC1E6264272E401C003D8D58 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1E6263272E401C003D8D58 /* HomeViewController.swift */; };
+		FC1E6266272E4022003D8D58 /* HomeViewControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1E6265272E4022003D8D58 /* HomeViewControllerProtocol.swift */; };
+		FC1E6268272E4027003D8D58 /* HomeViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1E6267272E4027003D8D58 /* HomeViewControllerDelegate.swift */; };
+		FC1E626A272E4031003D8D58 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1E6269272E4031003D8D58 /* HomeViewModel.swift */; };
+		FC1E626C272E4037003D8D58 /* HomeViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1E626B272E4037003D8D58 /* HomeViewModelProtocol.swift */; };
+		FC1E626E272E403D003D8D58 /* HomeViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1E626D272E403D003D8D58 /* HomeViewState.swift */; };
 		FCA79A5A272E3A7C0010A4B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA79A59272E3A7C0010A4B3 /* AppDelegate.swift */; };
-		FCA79A5C272E3A7C0010A4B3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA79A5B272E3A7C0010A4B3 /* SceneDelegate.swift */; };
-		FCA79A5E272E3A7C0010A4B3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA79A5D272E3A7C0010A4B3 /* ViewController.swift */; };
-		FCA79A61272E3A7C0010A4B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCA79A5F272E3A7C0010A4B3 /* Main.storyboard */; };
 		FCA79A63272E3A7E0010A4B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCA79A62272E3A7E0010A4B3 /* Assets.xcassets */; };
 		FCA79A66272E3A7E0010A4B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCA79A64272E3A7E0010A4B3 /* LaunchScreen.storyboard */; };
 		FD1EE7A19A80BE5EE081A7FF /* Pods_Boletow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CC1486290901676350E5556 /* Pods_Boletow.framework */; };
@@ -20,11 +38,29 @@
 		2CC1486290901676350E5556 /* Pods_Boletow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Boletow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E952A91FEFA1D3585B6475D /* Pods-Boletow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Boletow.release.xcconfig"; path = "Target Support Files/Pods-Boletow/Pods-Boletow.release.xcconfig"; sourceTree = "<group>"; };
 		ABE580DB5A343CE47E98088E /* Pods-Boletow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Boletow.debug.xcconfig"; path = "Target Support Files/Pods-Boletow/Pods-Boletow.debug.xcconfig"; sourceTree = "<group>"; };
+		FC1E6239272E3BCC003D8D58 /* RoutableFlowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoutableFlowController.swift; sourceTree = "<group>"; };
+		FC1E623A272E3BCC003D8D58 /* RouteProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RouteProtocol.swift; sourceTree = "<group>"; };
+		FC1E623B272E3BCC003D8D58 /* NavigableFlowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigableFlowController.swift; sourceTree = "<group>"; };
+		FC1E623C272E3BCC003D8D58 /* Navigator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Navigator.swift; sourceTree = "<group>"; };
+		FC1E6247272E3C28003D8D58 /* MainAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainAssembly.swift; sourceTree = "<group>"; };
+		FC1E6249272E3C33003D8D58 /* MainDependencyGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainDependencyGraph.swift; sourceTree = "<group>"; };
+		FC1E624B272E3C8E003D8D58 /* MainFactoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainFactoryProtocol.swift; sourceTree = "<group>"; };
+		FC1E624D272E3C93003D8D58 /* MainFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainFactory.swift; sourceTree = "<group>"; };
+		FC1E624F272E3D27003D8D58 /* Resolver+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Resolver+Extensions.swift"; sourceTree = "<group>"; };
+		FC1E6255272E3DC7003D8D58 /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
+		FC1E6257272E3DE0003D8D58 /* UINavigationController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationController+Extensions.swift"; sourceTree = "<group>"; };
+		FC1E6259272E3E09003D8D58 /* MainRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainRoute.swift; sourceTree = "<group>"; };
+		FC1E625B272E3E48003D8D58 /* MainFlowControllerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainFlowControllerProtocol.swift; sourceTree = "<group>"; };
+		FC1E625D272E3E4D003D8D58 /* MainFlowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainFlowController.swift; sourceTree = "<group>"; };
+		FC1E6261272E4015003D8D58 /* HomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
+		FC1E6263272E401C003D8D58 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		FC1E6265272E4022003D8D58 /* HomeViewControllerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewControllerProtocol.swift; sourceTree = "<group>"; };
+		FC1E6267272E4027003D8D58 /* HomeViewControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewControllerDelegate.swift; sourceTree = "<group>"; };
+		FC1E6269272E4031003D8D58 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		FC1E626B272E4037003D8D58 /* HomeViewModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModelProtocol.swift; sourceTree = "<group>"; };
+		FC1E626D272E403D003D8D58 /* HomeViewState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewState.swift; sourceTree = "<group>"; };
 		FCA79A56272E3A7C0010A4B3 /* Boletow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Boletow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCA79A59272E3A7C0010A4B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FCA79A5B272E3A7C0010A4B3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FCA79A5D272E3A7C0010A4B3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FCA79A60272E3A7C0010A4B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FCA79A62272E3A7E0010A4B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FCA79A65272E3A7E0010A4B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FCA79A67272E3A7E0010A4B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -48,7 +84,6 @@
 				ABE580DB5A343CE47E98088E /* Pods-Boletow.debug.xcconfig */,
 				2E952A91FEFA1D3585B6475D /* Pods-Boletow.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -58,6 +93,123 @@
 				2CC1486290901676350E5556 /* Pods_Boletow.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FC1E6235272E3B31003D8D58 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				FC1E6236272E3B35003D8D58 /* Common */,
+				FC1E6241272E3BE5003D8D58 /* DependencyInjection */,
+				FC1E6242272E3BEB003D8D58 /* Domain */,
+				FC1E6243272E3BF2003D8D58 /* Factory */,
+				FC1E6244272E3BF5003D8D58 /* Flow */,
+				FC1E6245272E3BFC003D8D58 /* UI */,
+				FC1E6246272E3C00003D8D58 /* Utils */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		FC1E6236272E3B35003D8D58 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				FC1E6237272E3BCC003D8D58 /* Navigation */,
+				FCA79A59272E3A7C0010A4B3 /* AppDelegate.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		FC1E6237272E3BCC003D8D58 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				FC1E6238272E3BCC003D8D58 /* Route */,
+				FC1E623B272E3BCC003D8D58 /* NavigableFlowController.swift */,
+				FC1E623C272E3BCC003D8D58 /* Navigator.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		FC1E6238272E3BCC003D8D58 /* Route */ = {
+			isa = PBXGroup;
+			children = (
+				FC1E6239272E3BCC003D8D58 /* RoutableFlowController.swift */,
+				FC1E623A272E3BCC003D8D58 /* RouteProtocol.swift */,
+			);
+			path = Route;
+			sourceTree = "<group>";
+		};
+		FC1E6241272E3BE5003D8D58 /* DependencyInjection */ = {
+			isa = PBXGroup;
+			children = (
+				FC1E6247272E3C28003D8D58 /* MainAssembly.swift */,
+				FC1E6249272E3C33003D8D58 /* MainDependencyGraph.swift */,
+			);
+			path = DependencyInjection;
+			sourceTree = "<group>";
+		};
+		FC1E6242272E3BEB003D8D58 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		FC1E6243272E3BF2003D8D58 /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				FC1E624D272E3C93003D8D58 /* MainFactory.swift */,
+				FC1E624B272E3C8E003D8D58 /* MainFactoryProtocol.swift */,
+			);
+			path = Factory;
+			sourceTree = "<group>";
+		};
+		FC1E6244272E3BF5003D8D58 /* Flow */ = {
+			isa = PBXGroup;
+			children = (
+				FC1E625D272E3E4D003D8D58 /* MainFlowController.swift */,
+				FC1E625B272E3E48003D8D58 /* MainFlowControllerProtocol.swift */,
+				FC1E6259272E3E09003D8D58 /* MainRoute.swift */,
+			);
+			path = Flow;
+			sourceTree = "<group>";
+		};
+		FC1E6245272E3BFC003D8D58 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				FC1E625F272E4008003D8D58 /* Features */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		FC1E6246272E3C00003D8D58 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				FC1E624F272E3D27003D8D58 /* Resolver+Extensions.swift */,
+				FC1E6255272E3DC7003D8D58 /* UIViewController+Extensions.swift */,
+				FC1E6257272E3DE0003D8D58 /* UINavigationController+Extensions.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		FC1E625F272E4008003D8D58 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				FC1E6260272E4009003D8D58 /* Home */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		FC1E6260272E4009003D8D58 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				FC1E6261272E4015003D8D58 /* HomeModel.swift */,
+				FC1E6263272E401C003D8D58 /* HomeViewController.swift */,
+				FC1E6267272E4027003D8D58 /* HomeViewControllerDelegate.swift */,
+				FC1E6265272E4022003D8D58 /* HomeViewControllerProtocol.swift */,
+				FC1E6269272E4031003D8D58 /* HomeViewModel.swift */,
+				FC1E626B272E4037003D8D58 /* HomeViewModelProtocol.swift */,
+				FC1E626D272E403D003D8D58 /* HomeViewState.swift */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 		FCA79A4D272E3A7C0010A4B3 = {
@@ -81,10 +233,7 @@
 		FCA79A58272E3A7C0010A4B3 /* Boletow */ = {
 			isa = PBXGroup;
 			children = (
-				FCA79A59272E3A7C0010A4B3 /* AppDelegate.swift */,
-				FCA79A5B272E3A7C0010A4B3 /* SceneDelegate.swift */,
-				FCA79A5D272E3A7C0010A4B3 /* ViewController.swift */,
-				FCA79A5F272E3A7C0010A4B3 /* Main.storyboard */,
+				FC1E6235272E3B31003D8D58 /* Source */,
 				FCA79A62272E3A7E0010A4B3 /* Assets.xcassets */,
 				FCA79A64272E3A7E0010A4B3 /* LaunchScreen.storyboard */,
 				FCA79A67272E3A7E0010A4B3 /* Info.plist */,
@@ -154,7 +303,6 @@
 			files = (
 				FCA79A66272E3A7E0010A4B3 /* LaunchScreen.storyboard in Resources */,
 				FCA79A63272E3A7E0010A4B3 /* Assets.xcassets in Resources */,
-				FCA79A61272E3A7C0010A4B3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,23 +355,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FCA79A5E272E3A7C0010A4B3 /* ViewController.swift in Sources */,
 				FCA79A5A272E3A7C0010A4B3 /* AppDelegate.swift in Sources */,
-				FCA79A5C272E3A7C0010A4B3 /* SceneDelegate.swift in Sources */,
+				FC1E6250272E3D27003D8D58 /* Resolver+Extensions.swift in Sources */,
+				FC1E625C272E3E48003D8D58 /* MainFlowControllerProtocol.swift in Sources */,
+				FC1E626C272E4037003D8D58 /* HomeViewModelProtocol.swift in Sources */,
+				FC1E626A272E4031003D8D58 /* HomeViewModel.swift in Sources */,
+				FC1E626E272E403D003D8D58 /* HomeViewState.swift in Sources */,
+				FC1E6264272E401C003D8D58 /* HomeViewController.swift in Sources */,
+				FC1E625E272E3E4D003D8D58 /* MainFlowController.swift in Sources */,
+				FC1E6262272E4015003D8D58 /* HomeModel.swift in Sources */,
+				FC1E6240272E3BCC003D8D58 /* Navigator.swift in Sources */,
+				FC1E6256272E3DC7003D8D58 /* UIViewController+Extensions.swift in Sources */,
+				FC1E6266272E4022003D8D58 /* HomeViewControllerProtocol.swift in Sources */,
+				FC1E623F272E3BCC003D8D58 /* NavigableFlowController.swift in Sources */,
+				FC1E6268272E4027003D8D58 /* HomeViewControllerDelegate.swift in Sources */,
+				FC1E624C272E3C8E003D8D58 /* MainFactoryProtocol.swift in Sources */,
+				FC1E623E272E3BCC003D8D58 /* RouteProtocol.swift in Sources */,
+				FC1E625A272E3E09003D8D58 /* MainRoute.swift in Sources */,
+				FC1E6258272E3DE0003D8D58 /* UINavigationController+Extensions.swift in Sources */,
+				FC1E6248272E3C28003D8D58 /* MainAssembly.swift in Sources */,
+				FC1E624A272E3C33003D8D58 /* MainDependencyGraph.swift in Sources */,
+				FC1E624E272E3C93003D8D58 /* MainFactory.swift in Sources */,
+				FC1E623D272E3BCC003D8D58 /* RoutableFlowController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		FCA79A5F272E3A7C0010A4B3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FCA79A60272E3A7C0010A4B3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		FCA79A64272E3A7E0010A4B3 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -364,9 +523,9 @@
 				INFOPLIST_FILE = Boletow/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -376,7 +535,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -393,9 +552,9 @@
 				INFOPLIST_FILE = Boletow/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -405,7 +564,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
