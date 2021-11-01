@@ -18,6 +18,6 @@ extension UINavigationController {
     }
 
     func viewController(ofClass: AnyClass) -> UIViewController? {
-        return viewControllers.filter({$0.isKind(of: ofClass)}).last
+        return viewControllers.filter { $0.isKind(of: ofClass) }.last
     }
 }

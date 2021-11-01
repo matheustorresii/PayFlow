@@ -19,6 +19,27 @@ class OnboardingViewController: UIViewController, OnboardingViewControllerProtoc
 
     // MARK: - UI
     
+    let messageLabel: UILabel = {
+        let label = UILabel(frame: .zero)
+        label.translatesAutoresizingMaskIntoConstraints = false
+        label.font = .interFont(ofSize: 32, weight: .w600)
+        return label
+    }()
+    
+    let googleButton: UIButton = {
+        let button = UIButton(frame: .zero)
+        button.translatesAutoresizingMaskIntoConstraints = false
+        button.setTitle("Entrar com o Google", for: .normal)
+        return button
+    }()
+    
+    let guestButton: UIButton = {
+        let button = UIButton(frame: .zero)
+        button.translatesAutoresizingMaskIntoConstraints = false
+        button.setTitle("Entrar como visitante", for: .normal)
+        return button
+    }()
+    
     // MARK: - INITIALIZERS
     
     init(viewModel: OnboardingViewModelProtocol) {
@@ -44,5 +65,6 @@ class OnboardingViewController: UIViewController, OnboardingViewControllerProtoc
         view.backgroundColor = .white
     }
     
-    private func constraintUI() { }
+    private func constraintUI() {
+    }
 }

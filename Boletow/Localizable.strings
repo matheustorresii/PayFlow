@@ -1,0 +1,12 @@
+/* 
+  Localizable.strings
+  Boletow
+
+  Created by Matheus Torres on 01/11/21.
+  
+*/
+
+// MARK: - ONBOARDING
+"onboarding.message" = "Organize todos seus boletos em um único lugar";
+"onboarding.login.google" = "Entrar com Google";
+"onboarding.login.guest" = "Entrar como visitante";
