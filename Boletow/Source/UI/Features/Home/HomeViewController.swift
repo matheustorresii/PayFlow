@@ -46,4 +46,3 @@ class HomeViewController: UIViewController, HomeViewControllerProtocol {
     
     private func constraintUI() { }
 }
-

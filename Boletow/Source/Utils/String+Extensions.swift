@@ -18,4 +18,3 @@ extension String {
         return NSLocalizedString(string.rawValue, comment: "")
     }
 }
-
