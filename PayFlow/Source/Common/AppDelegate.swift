@@ -20,17 +20,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
     // MARK: - PRIVATE PROPERTIES
-
-    private var assemblers: Assembler?
-
-    // MARK: - PUBLIC PROPERTIES
-
-    var assembler: Assembler {
-        if assemblers == nil {
-            assemblers = getAssemblers()
-        }
-        return assemblers ?? Assembler([])
-    }
+    
+    private lazy var assembler: Assembler = {
+        var assemblies = [Assembly]()
+        assemblies.append(contentsOf: MainDependencyGraph.build())
+        return Assembler(assemblies)
+    }()
 
     // MARK: - PRIVATE METHODS
 
@@ -40,11 +35,5 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window?.rootViewController = flowController
         window?.makeKeyAndVisible()
         return true
-    }
-
-    private func getAssemblers() -> Assembler {
-        var assemblies = [Assembly]()
-        assemblies.append(contentsOf: MainDependencyGraph.build())
-        return Assembler(assemblies)
     }
 }
