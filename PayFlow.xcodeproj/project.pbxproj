@@ -65,9 +65,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2E952A91FEFA1D3585B6475D /* Pods-Boletow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Boletow.release.xcconfig"; path = "Target Support Files/Pods-Boletow/Pods-Boletow.release.xcconfig"; sourceTree = "<group>"; };
 		7428850B0CF32C3848435C19 /* Pods-PayFlow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayFlow.release.xcconfig"; path = "Target Support Files/Pods-PayFlow/Pods-PayFlow.release.xcconfig"; sourceTree = "<group>"; };
-		ABE580DB5A343CE47E98088E /* Pods-Boletow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Boletow.debug.xcconfig"; path = "Target Support Files/Pods-Boletow/Pods-Boletow.debug.xcconfig"; sourceTree = "<group>"; };
 		B23254C73AF963CD33264151 /* Pods-PayFlow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayFlow.debug.xcconfig"; path = "Target Support Files/Pods-PayFlow/Pods-PayFlow.debug.xcconfig"; sourceTree = "<group>"; };
 		D3FE787EBAF03AE18BCEEA86 /* Pods_PayFlow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PayFlow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC1E6239272E3BCC003D8D58 /* RoutableFlowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoutableFlowController.swift; sourceTree = "<group>"; };
@@ -143,8 +141,6 @@
 		1F3E02A20458E912AF0574AE /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				ABE580DB5A343CE47E98088E /* Pods-Boletow.debug.xcconfig */,
-				2E952A91FEFA1D3585B6475D /* Pods-Boletow.release.xcconfig */,
 				B23254C73AF963CD33264151 /* Pods-PayFlow.debug.xcconfig */,
 				7428850B0CF32C3848435C19 /* Pods-PayFlow.release.xcconfig */,
 			);
@@ -394,7 +390,7 @@
 			dependencies = (
 			);
 			name = PayFlow;
-			productName = Boletow;
+			productName = PayFlow;
 			productReference = FCA79A56272E3A7C0010A4B3 /* PayFlow.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -713,7 +709,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.matheustorres.Boletow;
+				PRODUCT_BUNDLE_IDENTIFIER = com.matheustorres.PayFlow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -742,7 +738,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.matheustorres.Boletow;
+				PRODUCT_BUNDLE_IDENTIFIER = com.matheustorres.PayFlow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
